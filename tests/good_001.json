@@ -4,7 +4,7 @@
     "type": "uint8_t"
   },
   "str": {
-    "value": "Morten",
+    "value": "John Doe",
     "type": "std::string"
   },
   "float_": {
