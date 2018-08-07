@@ -34,7 +34,7 @@ def formatEntry(entry, entries):
   return "const {} {} = {};\n".format(section[1], entry, value)
 
 def writeHeader(entries, file):
-  name = splitext(basename(file))[0]
+  name = splitext(basename(file))[0].replace(".", "_")
   print("Writing '{}::{}' struct to '{}'".format(NAMESPACE, name, file))
   with open(file, mode="w+") as fp:
     fp.write("#ifndef SPECTRACT_DATA_H\n\n")
