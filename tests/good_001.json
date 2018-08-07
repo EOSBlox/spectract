@@ -1,0 +1,18 @@
+{
+  "num": {
+    "value": 42,
+    "type": "uint8_t"
+  },
+  "str": {
+    "value": "Morten",
+    "type": "std::string"
+  },
+  "float_": {
+    "value": 3.1415,
+    "type": "float"
+  },
+  "double_": {
+    "value": 42.987654321,
+    "type": "double"
+  }
+}
