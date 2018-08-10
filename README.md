@@ -2,9 +2,11 @@
 Customize EOS smart contracts using JSON data compiled into C++ header files.
 
 ## Prerequisites
-Compiling JSON into C++ header requires only Python 3+.
+Compiling JSON into C++ header requires only [Python 3+](https://www.python.org/downloads/).
 
-Using C++ header with EOS smart contract requires only the `eosiocpp` compiler.
+Using C++ header with EOS smart contract requires only the `eosiocpp` compiler. There are essentially two ways to get `eosiocpp` available:
+1. [Download the code](https://developers.eos.io/eosio-nodeos/docs/getting-the-code) and [build it](https://developers.eos.io/eosio-nodeos/docs/autobuild-script), or
+2. [Pull an EOSIO Docker image](https://developers.eos.io/eosio-nodeos/docs/docker-quickstart) which has `eosiocpp` contained within
 
 ## Usage
 ```
